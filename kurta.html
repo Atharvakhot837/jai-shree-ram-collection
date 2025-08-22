@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .ram {
+    margin-left: 500px;
+  }
+
+
+  #collections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 900px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+#collections a {
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#collections a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(135deg, #ff6ec4 0%, #7873f5 100%);
+}
+
+
+.card{
+    background: #2c2b2c;
+}
+
+h5{
+  color: yellow;
+}
+del{
+  color: orange;
+}
+p{
+  color: azure;
+}
+
+.btn-outline-dark {
+    color: #2575fc;
+    border-color: #2575fc;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+    background-color: #2575fc;
+    color: #fff;
+}
+.card-img-top{
+   border-radius: 50%;
+}
+
+
+
+
+</style>
+
+<body>
+
+  <!--Navbaropend-->
+
+  <nav class="navbar navbar-expand-lg navbar-primary bg-dark">
+    <div class="container-fluid">
+      <img class="nala" src="https://i.pinimg.com/736x/8f/df/c7/8fdfc744dcfb43fe444c846fe27d03c5.jpg"
+        alt="jai shree ram" height="50px" width="45px" style="border-radius: 50%;">
+      <a class="navbar-brand" href=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">register</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">login</a>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!--Navbarclosed-->
+
+
+ <!--carousel opend-->
+
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://valintaformens.com/cdn/shop/products/photo_2023-03-27_02-27-21.jpg?v=1681723151" class="d-block mx-auto" alt="..." height="300px "width="250px">
+    </div>
+    <div class="carousel-item">
+      <img src="https://thechikanlabel.com/cdn/shop/files/04b_compressed_dbb9a7ba-52f8-4992-86a8-47c772ac06eb.jpg?v=1707133525&width=836" class="d-block mx-auto" alt="..." height="300px "width="250px">
+    </div>
+    <div class="carousel-item">
+      <img src="https://s3-us-west-2.amazonaws.com/shaadiwishnewbucket/ceaf6c26-b0b0-2d24-1083-284ac5576703.jpg" class="d-block mx-auto" alt="..." height="300px "width="250px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--carousel closed-->
+
+
+
+  <div id="collections">
+
+    
+    <a href="T-shirt.html"> T-shirt </a>
+    <a href="men-jens.html"> men-jens </a>
+    <a href="men-shorts.html"> men shorts </a>
+    
+    <a href="jaket-.html"> jakets </a>
+    <a href="anime T-shirt.html"> anime T-shrit </a>
+    <a href="men-shrit.html"> men-shrit </a>
+    
+    </div>
+    
+
+
+     <!--Cards open-->
+
+  <div class="container">
+
+    <div class="row mt-5">
+
+      <div class="col">
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://assets2.andaazfashion.com/media/catalog/product/cache/1/image/800x1200/a12781a7f2ccb3d663f7fd01e1bd2e4e/p/e/peach-art-silk-men-kurta-pajama-with-jacket-mkpa01926-1.jpg" class="card-img-top" alt="..."style="height:41vh">
+          
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+      <del> off 6000/-</del> <br> <br>
+            <p class="card-text"> Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://pictures.kartmax.in/live/sites/9s145MyZrWdIAwpU0JYS/product-images/maroon_embroidery_kurta_suit_for_festive_17162053518122(maroon)_1.jpg" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+            <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://assets2.andaazfashion.com/media/catalog/product/a/r/art-silk-lace-bottle-green-straight-cut-mens-kurta-churidar-mkpa05668-1.jpg" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+      <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://sareesbazaar.in/cdn/shop/products/SB74_AC_ACEMB02.jpg?v=1741321824&width=535" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+            <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-5">
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.fabfunda.com/product-img/red-stylish-embroidery-work-co-1725094767.jpeg" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+            <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.nihalfashions.com/media/catalog/product/cache/caa15edf98145413286703527de7b8dd/g/r/grey-cotton-mens-kurta-pajama-nmk-6148.jpg" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+      <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://suvidhafashion.com/cdn/shop/files/IMG_0915_9a57dd14-d24c-42d1-b43e-555f5a5f394f.jpg?v=1721632686&width=600" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+            <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.heenastyle.com/image/cache/catalog/10811-RT9954/FHRT9954191429-610x1050.jpg" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+      <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-5">
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.craftyle.com/cdn/shop/files/butter-yellow-mens-kurta-pajama-with-weave-work-5.jpg?v=1712676133&width=1500" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+            <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://5.imimg.com/data5/SELLER/Default/2021/8/JX/WH/ZF/129902046/87-0-.jpg" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+            <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://cdn0.weddingwire.in/article/7399/original/1280/jpg/79937-marathi-dress-knotty-affair-in-mustard-sherwani-white-dhoti.jpeg" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+      <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://shaadiwish.com/blog/wp-content/uploads/2021/08/royal-peshwai-groom-look.jpg" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-bod">
+            <h5>rs. 2000 /- 36% off</h5>
+      <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive aKurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-5">
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://i.pinimg.com/736x/24/c7/14/24c714b534e25eb8646ef0d42fdb6699.jpg" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+            <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-14fssaZAabaa18zJkb9YjUba0fICs-IjNA&s" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+            <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS02AiOb1ZHfucMvUqROj3Q4GQavxmOcpw-bPVFtByOxnkjTXfkLFBOMsTH97ZiIxz8XqQ&usqp=CAU" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+      <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://i.pinimg.com/736x/77/a7/a1/77a7a181703206d49fcbd20bbdd8ce4a.jpg" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+      <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-5">
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://i.pinimg.com/474x/38/2b/71/382b71a254329965a422640a7b41d2ad.jpg" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+            <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive aKurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://i.pinimg.com/1200x/17/58/26/1758268874747c5a45cbfdc98abfab1e.jpg" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+            <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwMCV6_9fN-FwWua5jUjUqfGAI77mWgn_GtH1wE5ci_vEVxMFjefxB1aynmof0VRMIMDA&usqp=CAU" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+      <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.dheu.in/cdn/shop/products/TSI_9252_1080x.jpg?v=1638217378" class="card-img-top" alt="..."style="height:41vh">
+          <div class="card-body">
+            <h5>rs. 2000 /- 36% off</h5>
+            <del> off 6000/-</del> <br> <br>
+            <p class="card-text">Jai shree ram collections exclusive Kurta</p>
+            <a href="#" class="btn btn-outline-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--Cards closed-->
+
+
+  
+</body>
+</html>

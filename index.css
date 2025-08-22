@@ -1,0 +1,9 @@
+.nala:hover{
+    
+    box-shadow: 2px 2px 17px rgb(255, 140, 0),-2px -2px 17px rgb(255, 140, 0);
+}
+
+
+.nala{
+    transition: all ease 1s;
+}
